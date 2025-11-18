@@ -255,3 +255,84 @@ h1, h2, h3 {
         font-size: 2.5em;
     }
 }
+/* Estilos para la Sección de Contacto */
+.contact-section {
+    background-color: var(--color-light); /* Fondo claro para contraste */
+}
+
+.contact-intro {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-details {
+    margin-bottom: 40px;
+    font-size: 1.1em;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+/* Estilos del Formulario */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-family: var(--font-serif);
+    font-size: 1.1em;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Asegura que el padding no cambie el ancho total */
+    font-family: var(--font-body);
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    resize: vertical; /* Permite redimensionar solo verticalmente */
+}
+
+/* Estilo del botón de envío */
+.btn-submit {
+    display: block; /* Ocupa todo el ancho del formulario */
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: var(--color-text); /* Color oscuro principal */
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 3px;
+}
+
+.btn-submit:hover {
+    background-color: #333; /* Oscurece al pasar el ratón */
+}
