@@ -1,0 +1,490 @@
+self.__BUILD_MANIFEST = {
+  "/": [
+    "static/chunks/6e236ca232defad6.js"
+  ],
+  "/_error": [
+    "static/chunks/1c7136e191ad4b19.js"
+  ],
+  "/account": [
+    "static/chunks/dbd8250c446a95da.js"
+  ],
+  "/account/additional-billing-settings": [
+    "static/chunks/363600abe1fb82da.js"
+  ],
+  "/actionCode": [
+    "static/chunks/b38342893df9af14.js"
+  ],
+  "/agentVerify": [
+    "static/chunks/a574587f2b3da9e0.js"
+  ],
+  "/appTest": [
+    "static/chunks/a797e28b1e0bbfa9.js"
+  ],
+  "/auth": [
+    "static/chunks/ce8b5c80d030870a.js"
+  ],
+  "/authComplete": [
+    "static/chunks/205bc1f159c78955.js"
+  ],
+  "/authWithReplco": [
+    "static/chunks/aa2dd2ffb5f183bf.js"
+  ],
+  "/authWithReplcoCloser": [
+    "static/chunks/9755f7b1b6e9fe00.js"
+  ],
+  "/blank": [
+    "static/chunks/24be7d6b5875ce23.js"
+  ],
+  "/brandkit": [
+    "static/chunks/408f7d5843def863.js"
+  ],
+  "/cashOut": [
+    "static/chunks/b1c5bdeb05ff115b.js"
+  ],
+  "/checkout": [
+    "static/chunks/c6e49dc5aa90738d.js"
+  ],
+  "/cli": [
+    "static/chunks/e61dccc41f0aa74b.js"
+  ],
+  "/communityHub": [
+    "static/chunks/b670d85ff6bcfda6.js"
+  ],
+  "/cycles": [
+    "static/chunks/4ea845a0a3462908.js"
+  ],
+  "/cyclesRedirect": [
+    "static/chunks/e77c5e8fd5f6d38e.js"
+  ],
+  "/deeplink-handler": [
+    "static/chunks/ccf7a992df04ff2c.js"
+  ],
+  "/deployment-login": [
+    "static/chunks/6fa700dec2a525d4.js"
+  ],
+  "/desktop": [
+    "static/chunks/1fd470d5f9735e92.js"
+  ],
+  "/desktopApp/auth": [
+    "static/chunks/bce4230743d89de3.js"
+  ],
+  "/desktopApp/authSuccess": [
+    "static/chunks/ec39eedb5c5a6dd9.js"
+  ],
+  "/desktopApp/home": [
+    "static/chunks/cf8287a160a7606d.js"
+  ],
+  "/desktopApp/open": [
+    "static/chunks/88fea204083d41ba.js"
+  ],
+  "/dev/confetti": [
+    "static/chunks/021b1a2bb567ff76.js"
+  ],
+  "/developer-frameworks": [
+    "static/chunks/1fb1c12d920fcaee.js"
+  ],
+  "/developerDay": [
+    "static/chunks/e75f6eae7cd4e852.js"
+  ],
+  "/expiredPrivateRepl": [
+    "static/chunks/7666c6d66e874e0c.js"
+  ],
+  "/extensions": [
+    "static/chunks/046de4a506ede3a1.js"
+  ],
+  "/extensions/extension": [
+    "static/chunks/c10cc04d2376e694.js"
+  ],
+  "/externalClaim": [
+    "static/chunks/792f6e3983bf00db.js"
+  ],
+  "/forgot": [
+    "static/chunks/93b22efd35164bc2.js"
+  ],
+  "/glitch": [
+    "static/chunks/5e7ca5ecc68eb8fa.js"
+  ],
+  "/googlenext": [
+    "static/chunks/9ac82b806cce0637.js"
+  ],
+  "/grab": [
+    "static/chunks/12fc3edab8431182.js"
+  ],
+  "/help": [
+    "static/chunks/5f610621802c727d.js"
+  ],
+  "/home": [
+    "static/chunks/ddb378834fb924f4.js"
+  ],
+  "/hostingDeployments": [
+    "static/chunks/da5f1246eff378fe.js"
+  ],
+  "/hostingDeployments/hostingDeployment": [
+    "static/chunks/13fbb285a4435797.js"
+  ],
+  "/import": [
+    "static/chunks/8f371c65816763ce.js"
+  ],
+  "/import/[provider]": [
+    "static/chunks/ee9b79f055f46812.js"
+  ],
+  "/instantGitHubContentsImport": [
+    "static/chunks/12bdaa0072758364.js"
+  ],
+  "/instantGitHubImport": [
+    "static/chunks/212f4877f76ee791.js"
+  ],
+  "/integrations": [
+    "static/chunks/f24da12a18534e5c.js"
+  ],
+  "/integrations/[connectorName]": [
+    "static/chunks/7996c314eedad4e0.js"
+  ],
+  "/integrations/[connectorName]/apps/[appId]": [
+    "static/chunks/82b9ae0d493bc380.js"
+  ],
+  "/language": [
+    "static/chunks/84f7c90a2bb3b7da.js"
+  ],
+  "/learn/course": [
+    "static/chunks/787a204683fb58e1.js"
+  ],
+  "/learn/hub": [
+    "static/chunks/d2d544a59763f7cc.js"
+  ],
+  "/learn/learnLandingPage": [
+    "static/chunks/658135a2fba33ffb.js"
+  ],
+  "/mark": [
+    "static/chunks/e2eb03305f3904f9.js"
+  ],
+  "/mobile": [
+    "static/chunks/f857159525353a54.js"
+  ],
+  "/mobileApp/home": [
+    "static/chunks/f048b23e78bb4ce0.js"
+  ],
+  "/mobileApp/startWithAI": [
+    "static/chunks/28f820c9a7e324bf.js"
+  ],
+  "/mobileDownload": [
+    "static/chunks/d23eea157906b725.js"
+  ],
+  "/native-saml-sign-in": [
+    "static/chunks/bc9fcb04b00c6ed1.js"
+  ],
+  "/new": [
+    "static/chunks/483cab5ea4cf1d1d.js"
+  ],
+  "/newExtension": [
+    "static/chunks/8e99c2c0508246a2.js"
+  ],
+  "/notifications": [
+    "static/chunks/d5d2fbc6f82743c1.js"
+  ],
+  "/pricing": [
+    "static/chunks/94248d9aa0d7125c.js"
+  ],
+  "/profile": [
+    "static/chunks/d8aee78d38e25b1d.js"
+  ],
+  "/replEmbed": [
+    "static/chunks/77184b6f31a504de.js"
+  ],
+  "/replEnvironmentDesktop": [
+    "static/chunks/e43c747c819906a9.js"
+  ],
+  "/replEnvironmentMobile": [
+    "static/chunks/2ba23746977d72eb.js"
+  ],
+  "/replView": [
+    "static/chunks/c6ac5a1ff6cc0fc3.js"
+  ],
+  "/replitAuth": [
+    "static/chunks/ad10f6db57f159b5.js"
+  ],
+  "/replitAuthConsent": [
+    "static/chunks/d5f2eb6d546578af.js"
+  ],
+  "/replitAuthError": [
+    "static/chunks/569855df8a56a1c3.js"
+  ],
+  "/replsDashboard": [
+    "static/chunks/8636da01dba33c8f.js"
+  ],
+  "/routeTest": [
+    "static/chunks/230fe4e35a0c9b58.js"
+  ],
+  "/search": [
+    "static/chunks/8cd77e53124fb656.js"
+  ],
+  "/site/bounties": [
+    "static/chunks/c674a3fb27aca522.js"
+  ],
+  "/site/githubClassroomNotice": [
+    "static/chunks/d33386b3a3de32d5.js"
+  ],
+  "/site/membership": [
+    "static/chunks/85813b486d72813e.js"
+  ],
+  "/stripe-checkout-error": [
+    "static/chunks/ddaf598c48d563c5.js"
+  ],
+  "/stripe-checkout-success": [
+    "static/chunks/eaf784d8e526b530.js"
+  ],
+  "/t/[orgSlug]": [
+    "static/chunks/63b77a22a18d0870.js"
+  ],
+  "/t/[orgSlug]/accept-invite/[inviteCode]": [
+    "static/chunks/7627e15f05f94d8d.js"
+  ],
+  "/t/[orgSlug]/accept-sponsored-subscription/[inviteCode]": [
+    "static/chunks/68f064d0f5ab1aac.js"
+  ],
+  "/t/[orgSlug]/analytics": [
+    "static/chunks/b1e450926eb6c22e.js"
+  ],
+  "/t/[orgSlug]/deployments": [
+    "static/chunks/2ea3d1d2b9d56eb5.js"
+  ],
+  "/t/[orgSlug]/developer-frameworks": [
+    "static/chunks/c477b8cb32f92fa4.js"
+  ],
+  "/t/[orgSlug]/groups": [
+    "static/chunks/d76cc743474d0e2b.js"
+  ],
+  "/t/[orgSlug]/groups/[groupSlug]/[groupId]/members": [
+    "static/chunks/fca998042e60d380.js"
+  ],
+  "/t/[orgSlug]/groups/[groupSlug]/[groupId]/permissions": [
+    "static/chunks/98267453ff61ab4d.js"
+  ],
+  "/t/[orgSlug]/groups/[groupSlug]/[groupId]/settings": [
+    "static/chunks/58cb98f27bd7ad45.js"
+  ],
+  "/t/[orgSlug]/integrations": [
+    "static/chunks/ac8afe686ea4659a.js"
+  ],
+  "/t/[orgSlug]/integrations/[connectorName]": [
+    "static/chunks/1c46fe1027d7c1d2.js"
+  ],
+  "/t/[orgSlug]/integrations/[connectorName]/apps/[appId]": [
+    "static/chunks/f117d059aa91f998.js"
+  ],
+  "/t/[orgSlug]/members": [
+    "static/chunks/b3f2880d1bccdd7e.js"
+  ],
+  "/t/[orgSlug]/profile": [
+    "static/chunks/4fa94d90973d2ded.js"
+  ],
+  "/t/[orgSlug]/profile/settings": [
+    "static/chunks/5f58f8601d6706b1.js"
+  ],
+  "/t/[orgSlug]/projects": [
+    "static/chunks/164c418d91fc87d2.js"
+  ],
+  "/t/[orgSlug]/projects/[projectId]": [
+    "static/chunks/9942ed56197a9bc0.js"
+  ],
+  "/t/[orgSlug]/repls": [
+    "static/chunks/2caf7ae39eb2b6fc.js"
+  ],
+  "/t/[orgSlug]/settings/[[...tab]]": [
+    "static/chunks/bb2dbe6374ed1f9d.js"
+  ],
+  "/t/[orgSlug]/theme-editor": [
+    "static/chunks/47d99679f8dbf3e1.js"
+  ],
+  "/t/[orgSlug]/usage": [
+    "static/chunks/d553b55e22400b65.js"
+  ],
+  "/t/join": [
+    "static/chunks/5b53a5186f27e39f.js"
+  ],
+  "/t/new": [
+    "static/chunks/6ab80c7c600f961a.js"
+  ],
+  "/teamError": [
+    "static/chunks/89314f01f20932e3.js"
+  ],
+  "/teams/join": [
+    "static/chunks/d2d44ae0edf34ab8.js"
+  ],
+  "/teams/new": [
+    "static/chunks/c21463f5e745f79c.js"
+  ],
+  "/templates/templates": [
+    "static/chunks/03539e118b924895.js"
+  ],
+  "/templates/templatesCategory": [
+    "static/chunks/a2410eac85a850a9.js"
+  ],
+  "/theme-editor": [
+    "static/chunks/76dc882218994f24.js"
+  ],
+  "/themes": [
+    "static/chunks/05d818e438b862d9.js"
+  ],
+  "/themes/create": [
+    "static/chunks/525fc5d09f672f67.js"
+  ],
+  "/themes/edit": [
+    "static/chunks/63f9511c9752e6b0.js"
+  ],
+  "/themes/theme": [
+    "static/chunks/832ee5a801d2b951.js"
+  ],
+  "/unauthorized-deployment": [
+    "static/chunks/a8b9d82921e01b6b.js"
+  ],
+  "/unauthorized-devdomain": [
+    "static/chunks/b9e76d8b7c4fee8a.js"
+  ],
+  "/usage": [
+    "static/chunks/211eb9e74bab5ccd.js"
+  ],
+  "/userDataExport": [
+    "static/chunks/674ee74d7e42f493.js"
+  ],
+  "/verify": [
+    "static/chunks/f737ec27b825df3a.js"
+  ],
+  "/verifyEmail": [
+    "static/chunks/44a5c2e615be7c92.js"
+  ],
+  "/watchNixMigration": [
+    "static/chunks/4e3edac59c26f7ad.js"
+  ],
+  "/welcome": [
+    "static/chunks/7aa0299dcdfe7b4d.js"
+  ],
+  "__rewrites": {
+    "afterFiles": [],
+    "beforeFiles": [],
+    "fallback": []
+  },
+  "sortedPages": [
+    "/",
+    "/_app",
+    "/_error",
+    "/account",
+    "/account/additional-billing-settings",
+    "/actionCode",
+    "/agentVerify",
+    "/appTest",
+    "/auth",
+    "/authComplete",
+    "/authWithReplco",
+    "/authWithReplcoCloser",
+    "/blank",
+    "/brandkit",
+    "/cashOut",
+    "/checkout",
+    "/cli",
+    "/communityHub",
+    "/cycles",
+    "/cyclesRedirect",
+    "/deeplink-handler",
+    "/deployment-login",
+    "/desktop",
+    "/desktopApp/auth",
+    "/desktopApp/authSuccess",
+    "/desktopApp/home",
+    "/desktopApp/open",
+    "/dev/confetti",
+    "/developer-frameworks",
+    "/developerDay",
+    "/expiredPrivateRepl",
+    "/extensions",
+    "/extensions/extension",
+    "/externalClaim",
+    "/forgot",
+    "/glitch",
+    "/googlenext",
+    "/grab",
+    "/help",
+    "/home",
+    "/hostingDeployments",
+    "/hostingDeployments/hostingDeployment",
+    "/import",
+    "/import/[provider]",
+    "/instantGitHubContentsImport",
+    "/instantGitHubImport",
+    "/integrations",
+    "/integrations/[connectorName]",
+    "/integrations/[connectorName]/apps/[appId]",
+    "/language",
+    "/learn/course",
+    "/learn/hub",
+    "/learn/learnLandingPage",
+    "/mark",
+    "/mobile",
+    "/mobileApp/home",
+    "/mobileApp/startWithAI",
+    "/mobileDownload",
+    "/native-saml-sign-in",
+    "/new",
+    "/newExtension",
+    "/notifications",
+    "/pricing",
+    "/profile",
+    "/replEmbed",
+    "/replEnvironmentDesktop",
+    "/replEnvironmentMobile",
+    "/replView",
+    "/replitAuth",
+    "/replitAuthConsent",
+    "/replitAuthError",
+    "/replsDashboard",
+    "/routeTest",
+    "/search",
+    "/site/bounties",
+    "/site/githubClassroomNotice",
+    "/site/membership",
+    "/stripe-checkout-error",
+    "/stripe-checkout-success",
+    "/t/join",
+    "/t/new",
+    "/t/[orgSlug]",
+    "/t/[orgSlug]/accept-invite/[inviteCode]",
+    "/t/[orgSlug]/accept-sponsored-subscription/[inviteCode]",
+    "/t/[orgSlug]/analytics",
+    "/t/[orgSlug]/deployments",
+    "/t/[orgSlug]/developer-frameworks",
+    "/t/[orgSlug]/groups",
+    "/t/[orgSlug]/groups/[groupSlug]/[groupId]/members",
+    "/t/[orgSlug]/groups/[groupSlug]/[groupId]/permissions",
+    "/t/[orgSlug]/groups/[groupSlug]/[groupId]/settings",
+    "/t/[orgSlug]/integrations",
+    "/t/[orgSlug]/integrations/[connectorName]",
+    "/t/[orgSlug]/integrations/[connectorName]/apps/[appId]",
+    "/t/[orgSlug]/members",
+    "/t/[orgSlug]/profile",
+    "/t/[orgSlug]/profile/settings",
+    "/t/[orgSlug]/projects",
+    "/t/[orgSlug]/projects/[projectId]",
+    "/t/[orgSlug]/repls",
+    "/t/[orgSlug]/settings/[[...tab]]",
+    "/t/[orgSlug]/theme-editor",
+    "/t/[orgSlug]/usage",
+    "/teamError",
+    "/teams/join",
+    "/teams/new",
+    "/templates/templates",
+    "/templates/templatesCategory",
+    "/theme-editor",
+    "/themes",
+    "/themes/create",
+    "/themes/edit",
+    "/themes/theme",
+    "/unauthorized-deployment",
+    "/unauthorized-devdomain",
+    "/usage",
+    "/userDataExport",
+    "/verify",
+    "/verifyEmail",
+    "/watchNixMigration",
+    "/welcome"
+  ]
+};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

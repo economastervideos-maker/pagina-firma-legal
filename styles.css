@@ -1,19 +1,19 @@
-/* styles.css */
-
 :root {
-    --color-text: #1a1a1a; /* Negro muy oscuro para un look elegante */
-    --color-light: #f9f9f9; /* Fondo gris muy claro */
-    --font-serif: 'Cormorant Garamond', serif; /* La clave para el estilo */
+    --color-text: #1a1a1a;
+    --color-light: #f9f9f9;
+    --font-serif: 'Cormorant Garamond', serif; /* Estilo de firma elegante */
     --font-body: 'Roboto', sans-serif;
-    --padding-section: 120px 0; /* Espaciado amplio */
+    --padding-section: 120px 0;
 }
 
+/* Base */
 body {
     font-family: var(--font-body);
     color: var(--color-text);
     margin: 0;
     line-height: 1.6;
     background-color: #fff;
+    padding-top: 80px; /* Espacio para el header fijo */
 }
 
 h1, h2, h3 {
@@ -21,14 +21,13 @@ h1, h2, h3 {
     font-weight: 400;
 }
 
-/* 1. Cabecera y Navegación */
+/* Header Fijo y Navegación */
 .main-header {
     width: 100%;
-    /* Posición fija para que siempre esté visible, como en el ejemplo */
-    position: fixed; 
+    position: fixed; /* Lo fija arriba */
     top: 0;
     z-index: 1000;
-    background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco semitransparente */
+    background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
 }
 
@@ -44,7 +43,7 @@ h1, h2, h3 {
 .logo {
     font-size: 1.5em;
     font-weight: 600;
-    letter-spacing: 3px; /* Espaciado sutil */
+    letter-spacing: 3px;
 }
 
 .main-nav a {
@@ -54,13 +53,24 @@ h1, h2, h3 {
     font-size: 0.9em;
     letter-spacing: 1px;
     text-transform: uppercase;
+    transition: color 0.3s;
 }
 
-/* 2. Sección Hero */
+.main-nav a:hover {
+    color: #666;
+}
+
+/* Utilidad */
+.section-padded {
+    padding: var(--padding-section);
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Sección Hero (Inicio) */
 .hero-section {
-    /* La altura debe compensar el header fijo */
-    padding-top: 150px; 
-    min-height: 50vh; 
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,12 +83,6 @@ h1, h2, h3 {
     padding: 20px;
 }
 
-.intro-line {
-    font-size: 1.1em;
-    color: #666;
-    margin-bottom: 10px;
-}
-
 .hero-text h1 {
     font-size: 3.5em;
     line-height: 1.1;
@@ -86,7 +90,7 @@ h1, h2, h3 {
     margin-bottom: 40px;
 }
 
-/* Botón de Estilo Secundario (Con borde sutil) */
+/* Botón (Estilo sutil con borde) */
 .btn-secondary {
     display: inline-block;
     padding: 12px 35px;
@@ -104,48 +108,129 @@ h1, h2, h3 {
     color: #fff;
 }
 
-/* 3. Sección de Columnas */
-.section-padded {
-    padding: var(--padding-section);
-    max-width: 1200px;
+/* 3. Sección ACERCA DE (Estructura de Imagen y Texto) */
+.about-section {
+    background-color: var(--color-light);
+}
+
+.about-section h2 {
+    margin-bottom: 50px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
+}
+
+.about-content .text-content {
+    flex: 2;
+}
+
+.about-content .image-content {
+    flex: 1;
+    text-align: right;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* 4. Sección PRÁCTICAS (Fondo de Imagen - sala-tribunal.png) */
+.practices-section {
+    /* La imagen .png corregida se usa aquí */
+    background: url('images/sala-tribunal.png') no-repeat center center/cover;
+    color: #fff;
+    position: relative;
+}
+
+/* Capa oscura para mejor lectura */
+.practices-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.65); 
+    z-index: 1;
+}
+
+.practices-section h2,
+.practices-grid,
+.practices-grid .practice-item {
+    position: relative;
+    z-index: 2;
+    color: #fff;
 }
 
 .practices-section h2 {
-    font-size: 2.5em;
+    font-size: 2.8em;
     margin-bottom: 60px;
 }
 
 .practices-grid {
     display: grid;
-    /* Divide en 3 columnas iguales */
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
 
 .practice-item {
     text-align: left;
-    padding: 20px;
-    border-top: 1px solid #ddd; /* Separador sutil */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
 }
 
-.practice-item h3 {
-    font-size: 1.5em;
-    margin-top: 10px;
+/* 5. Sección EQUIPO (Tarjeta de Miembro) */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: 50px auto;
 }
 
-/* 4. Pie de Página */
+.team-member-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.member-title {
+    color: #666;
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+/* 6. Pie de Página */
 .main-footer {
     padding: 40px 0;
     text-align: center;
     background-color: var(--color-light);
     color: #666;
     font-size: 0.85em;
-    letter-spacing: 1px;
 }
 
-/* Media Query para hacerlo responsivo en móviles */
+/* Responsividad para móviles */
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
@@ -156,7 +241,15 @@ h1, h2, h3 {
         margin-top: 10px;
     }
     .practices-grid {
-        grid-template-columns: 1fr; /* Una sola columna en móvil */
+        grid-template-columns: 1fr; /* Una sola columna */
+    }
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-content .image-content {
+        order: -1;
+        margin-bottom: 30px;
     }
     .hero-text h1 {
         font-size: 2.5em;
