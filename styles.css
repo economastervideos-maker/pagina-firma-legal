@@ -1,0 +1,164 @@
+/* styles.css */
+
+:root {
+    --color-text: #1a1a1a; /* Negro muy oscuro para un look elegante */
+    --color-light: #f9f9f9; /* Fondo gris muy claro */
+    --font-serif: 'Cormorant Garamond', serif; /* La clave para el estilo */
+    --font-body: 'Roboto', sans-serif;
+    --padding-section: 120px 0; /* Espaciado amplio */
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    margin: 0;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+}
+
+/* 1. Cabecera y Navegación */
+.main-header {
+    width: 100%;
+    /* Posición fija para que siempre esté visible, como en el ejemplo */
+    position: fixed; 
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco semitransparente */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 3px; /* Espaciado sutil */
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--color-text);
+    margin-left: 30px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* 2. Sección Hero */
+.hero-section {
+    /* La altura debe compensar el header fijo */
+    padding-top: 150px; 
+    min-height: 50vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 700px;
+    padding: 20px;
+}
+
+.intro-line {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.hero-text h1 {
+    font-size: 3.5em;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/* Botón de Estilo Secundario (Con borde sutil) */
+.btn-secondary {
+    display: inline-block;
+    padding: 12px 35px;
+    border: 1px solid var(--color-text);
+    background-color: transparent;
+    color: var(--color-text);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-text);
+    color: #fff;
+}
+
+/* 3. Sección de Columnas */
+.section-padded {
+    padding: var(--padding-section);
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.practices-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 60px;
+}
+
+.practices-grid {
+    display: grid;
+    /* Divide en 3 columnas iguales */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px;
+}
+
+.practice-item {
+    text-align: left;
+    padding: 20px;
+    border-top: 1px solid #ddd; /* Separador sutil */
+}
+
+.practice-item h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* 4. Pie de Página */
+.main-footer {
+    padding: 40px 0;
+    text-align: center;
+    background-color: var(--color-light);
+    color: #666;
+    font-size: 0.85em;
+    letter-spacing: 1px;
+}
+
+/* Media Query para hacerlo responsivo en móviles */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 20px;
+    }
+    .main-nav {
+        margin-top: 10px;
+    }
+    .practices-grid {
+        grid-template-columns: 1fr; /* Una sola columna en móvil */
+    }
+    .hero-text h1 {
+        font-size: 2.5em;
+    }
+}
